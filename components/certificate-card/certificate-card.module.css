@@ -1,0 +1,36 @@
+.certificate_card_wrapper{
+    background-color: #1B2436;
+    display: flex;
+    gap: 2em;
+    padding: 1.25em;
+    color: #FAFAFA;
+    border-radius: 8px;
+    border: 0.5px solid rgba(255, 255, 255, 0.1);
+}
+
+.certificate_card_img_container{
+    width: 45%;
+}
+
+.certificate_card_det{
+    width: 45%;
+}
+
+.certificate_card_img_container img{
+    width: 100%;
+    height: 100%;
+}
+
+@media(max-width: 800px){
+    .certificate_card_wrapper{
+        width: 100%;
+        flex-direction: column;
+        gap: 0.5em;
+    }
+    .certificate_card_img_container{
+        width: 100%;
+    }
+    .certificate_card_det{
+        width: 100%;
+    }
+}

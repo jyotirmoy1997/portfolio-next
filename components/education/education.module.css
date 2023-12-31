@@ -1,0 +1,100 @@
+.education_wrapper{
+    /* background-color: blueviolet; */
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.education_outer{
+    width: 35%;
+    /* background-color: cadetblue; */
+    padding: 2em;
+    display: flex;
+    gap: 2em;
+    flex-direction: column;
+    color: #FAFAFA;
+    
+}
+
+.education_outer h1{
+    text-align: center;
+}
+
+
+
+.education_inner{
+    display: flex;
+    background-color: #1B2436;
+    gap: 1em;
+    align-items: center;
+    padding: 1.5em;
+    border-radius: 8px;
+    border: 0.5px solid rgba(255, 255, 255, 0.1);
+}
+
+.education_cat h2{
+    color: #72E2AE;
+}
+
+.education_cat a{
+    text-decoration: none;
+}
+
+.education_cat h4{
+    color: #EFEEEF;
+    
+}
+
+
+.interests_wrapper{
+    /* background-color: cadetblue; */
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75em;
+    width: 30%;
+    color: #FAFAFA;
+    justify-content: space-between;
+    
+}
+
+.interests_wrapper h1{
+    text-align: center;
+}
+
+.interests_inner{
+    background-color: #1B2436;
+    padding: 1.5em;
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    border-radius: 8px;
+    border: 0.5px solid rgba(255, 255, 255, 0.1);
+}
+
+
+.edu_year{
+    background-color: #474955;
+    width: 30%;
+    text-align: center;
+    padding: 0.15em;
+    border-radius: 8px;
+}
+
+@media(max-width : 1250px){
+    .education_wrapper{
+        flex-direction: column;
+    }
+    .education_outer, .interests_wrapper{
+        width: 90%;
+        padding: 0;
+        margin: 0 auto;
+    }
+    .interests_wrapper{
+        width: 90%;
+        
+    }
+    .edu_year{
+        width: 40%;
+    }
+}
