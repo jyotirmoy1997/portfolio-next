@@ -1,6 +1,8 @@
 import './globals.css'
 import Navigation from '@/components/navigation/navigation.component'
+import Footer from '@/components/footer/footer.component'
 import { Radio_Canada } from "next/font/google"
+
 
 const radioCanada = Radio_Canada({
   weight: ['400', '700'],
@@ -20,6 +22,7 @@ export default function RootLayout({ children }) {
       <body className={radioCanada.className}>
         <Navigation/>
         {children}
+        <Footer/>
       </body>
     </html>
   )

@@ -1,0 +1,29 @@
+.contact_page_wrapper{
+    width: 100%;
+    color: #FAFAFA;
+    /* background-color: blueviolet; */
+}
+
+.contact_page_wrapper h1{
+    text-align: center;
+}
+
+.contact_page_inner{
+    width: 80%;
+    /* background-color: chocolate; */
+    display: flex;
+    justify-content: space-between;
+    padding: 3em;
+    margin: 0 auto;
+}
+
+@media(max-width: 950px){
+    .contact_page_inner{
+        flex-direction: column;
+        gap: 3em;
+        padding: 0;
+        width: 90%;
+        padding-bottom: 2em;
+    }
+    
+}

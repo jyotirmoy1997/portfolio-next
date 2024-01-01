@@ -1,0 +1,43 @@
+.other_contact_wrapper{
+    display: flex;
+    width: 35%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.other_contact_inner{
+    display: flex;
+    width: 100%;
+    padding: 2em;
+    gap: 1em;
+    align-items: center;
+    background-color: #1B2436;
+    border-radius: 8px;
+    border: 0.5px solid rgba(255, 255, 255, 0.1);
+}
+
+.other_contact_inner_img_container{
+    width: 10%;
+}
+
+.other_contact_inner_img_container img{
+    width: 100%;
+    height: auto;
+}
+
+.oth_card{
+    display: flex;
+    flex-direction: column;
+}
+@media(max-width : 950px){
+    .other_contact_wrapper{
+        width: 100%;
+    }
+    .other_contact_inner{
+        display: flex;
+        width: 90%;
+        padding: 1.5em;
+        margin: 0 auto;
+    }
+}

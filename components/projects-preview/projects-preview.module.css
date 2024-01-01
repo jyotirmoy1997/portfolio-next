@@ -59,6 +59,11 @@
     background-color: #72E2AE;
 }
 
+.more_projects a{
+    all: unset;
+}
+
+
 .project_ts_container{
     width: 100%;
     display: flex;

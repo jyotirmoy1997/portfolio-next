@@ -3,9 +3,8 @@
 import { Fragment } from "react"
 import classes from "./navigation.module.css"
 import logo from "@/public/logo.png"
-import Link from "next/link"
-import { redirect } from "next/navigation"
 import { useRef } from 'react';
+import Link from "next/link"
 import hamburgericon from "@/public/ham.png"
 import closeicon from "@/public/close.png"
 import Image from "next/image"
@@ -15,7 +14,6 @@ const Navigation = () => {
     const showNavBar = () => {
         navRef.current.classList.toggle(classes.responsive_nav)
     }
-
     return(
         <Fragment>
             <div className={classes.nav_wrapper}>
@@ -29,9 +27,9 @@ const Navigation = () => {
                         <Link href="/certifications" onClick={showNavBar} >Certifications</Link>
                     </div>
                     <div>
-                        <button className={classes.hire_me_btn} onClick={() =>{
-                            redirect("/contact")
-                        } }>Hire Me</button>
+                        <button className={classes.hire_me_btn}>
+                            <Link href="/contact">Hire Me</Link>
+                        </button>
                     </div>
                     <button className={`${classes.nav_btn} ${classes.nav_close_btn}`} onClick={showNavBar} >
                     <Image src={closeicon.src} alt="" width={20} height={20}  />

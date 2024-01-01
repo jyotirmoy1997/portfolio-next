@@ -1,6 +1,6 @@
 'use client'
 
-import { redirect } from "next/navigation"
+import Link from "next/link"
 import classes from "./projects-preview.module.css"
 import phimg from "@/public/pc-hunters.png"
 import gaimg from "@/public/gamers-adobe.png"
@@ -75,7 +75,9 @@ const ProjectsPreview = () => {
                     </div>
 
                 </div>
-                <button className={classes.more_projects} onClick={() => redirect("/projects")}>Browse more Projects...</button>
+                <button className={classes.more_projects}>
+                    <Link href="/projects">Browse more Projects...</Link>
+                </button>
             </div>
         </div>
     )

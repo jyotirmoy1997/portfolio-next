@@ -9,12 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
     "@emotion/react": "^11.11.3",
     "nanoid": "^5.0.4",
     "next": "14.0.4",
     "react": "^18",
     "react-awesome-reveal": "^4.2.7",
     "react-dom": "^18",
+    "react-hot-toast": "^2.4.1",
     "react-simple-typewriter": "^5.0.1",
     "react-tooltip": "^5.25.1"
   },
