@@ -42,7 +42,7 @@ const LandingPage = () => {
                     <p>Hi There ! I am Jyotirmoy Das, A Full-Stack developer primarily focued on 
                         The MERN Stack & NextJS. I create dynamic web applications that deliver exceptional 
                         user experiences. With a focus on performance and functionality, 
-                        I turn ideas into reality. Let&apos;s build something great!
+                        I turn ideas into reality. Let&apos;s build something great! 
                     </p>
                 </div>
                 <div className={classes.social_links}>

@@ -28,7 +28,6 @@ const Education = () => {
                             <a href="https://www.nbu.ac.in/" target="_blank">
                                 <h4>University of North Bengal</h4>
                             </a>
-                            
                         </div>
                     </div>
 
