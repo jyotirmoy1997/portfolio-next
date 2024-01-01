@@ -1,4 +1,3 @@
-// import ProjectCard from "../../components/project-card/project-card.component"
 import ProjectCard from "@/components/project-card/project-card.component"
 import phimg from "@/public/pc-hunters.png"
 import gaimg from "@/public/gamers-adobe.png"

@@ -1,8 +1,9 @@
+import CertificateCard from "@/components/certificate-card/certificate-card.component"
 import bdata from "@/public/certificates/bdata.jpg"
 import mlearning from "@/public/certificates/mlearning.jpg"
 import bchain from "@/public/certificates/bchain.jpg"
 import classes from "./page.module.css"
-import CertificateCard from "@/components/certificate-card/certificate-card.component"
+
 
 export const metadata = {
     title: 'Jyotirmoy Das - Certifications',

@@ -1,10 +1,11 @@
 'use client'
 
-import classes from "./contact-form.module.css"
 import { useState, useRef } from "react"
 import emailjs from '@emailjs/browser';
 import { validateEmail } from "@/utils/validator";
 import toast, { Toaster } from 'react-hot-toast';
+import classes from "./contact-form.module.css"
+
 
 const successNotify = () => toast.success("Email Sent Successfully")
 const failNotify = () => toast.error("Something Went Wrong")
@@ -15,7 +16,6 @@ const templateID = process.env.NEXT_PUBLIC_TEMPLATE_ID
 const publicKey = process.env.NEXT_PUBLIC_PUBLIC_KEY
 
 const errMsg = "Please fill this field"
-
 const initialState = {
     name : "",
     email : "",

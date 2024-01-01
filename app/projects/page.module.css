@@ -1,6 +1,5 @@
 .projects_container_wrapper{
     width: 100%;
-    
 }
 
 .projects_container{
@@ -11,7 +10,6 @@
     flex-wrap: wrap;
     gap: 4em;
     justify-content: space-evenly;
-    /* background-color: coral; */
 }
 
 @media(max-width: 1100px){

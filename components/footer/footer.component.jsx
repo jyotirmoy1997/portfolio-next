@@ -1,8 +1,8 @@
-import classes from "./footer.module.css"
 import linkedinlogo from "@/public/linkedin_1.png"
 import twitterlogo from "@/public/twitter.png"
 import githublogo from "@/public/github-white.png"
 import Image from "next/image"
+import classes from "./footer.module.css"
 
 const Footer = () => {
     const d = new Date()

@@ -1,12 +1,12 @@
 'use client'
 
-import classes from "./landing-page.module.css"
 import dp from "@/public/IMG_3311.jpg"
 import linkedinlogo from "@/public/linkedin_1.png"
 import twitterlogo from "@/public/twitter.png"
 import githublogo from "@/public/github-white.png"
 import { Typewriter } from 'react-simple-typewriter'
 import Image from "next/image"
+import classes from "./landing-page.module.css"
 
 const words = ['Jyotirmoy Das', 'a Full-Stack Developer', 'a MERN Stack Developer']
 
@@ -42,7 +42,7 @@ const LandingPage = () => {
                     <p>Hi There ! I am Jyotirmoy Das, A Full-Stack developer primarily focued on 
                         The MERN Stack & NextJS. I create dynamic web applications that deliver exceptional 
                         user experiences. With a focus on performance and functionality, 
-                        I turn ideas into reality. Let's build something great!
+                        I turn ideas into reality. Let&apos;s build something great!
                     </p>
                 </div>
                 <div className={classes.social_links}>

@@ -1,5 +1,5 @@
-import classes from "./certificate-card.module.css"
 import Image from "next/image"
+import classes from "./certificate-card.module.css"
 
 const CertificateCard = ({details}) => {
     const {heading, image, issuer, issueDate, credentialID} = details
