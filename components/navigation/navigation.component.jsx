@@ -28,7 +28,7 @@ const Navigation = () => {
                     </div>
                     <div>
                         <button className={classes.hire_me_btn}>
-                            <Link href="/contact">Hire Me</Link>
+                            <Link href="/contact" onClick={showNavBar}>Hire Me</Link>
                         </button>
                     </div>
                     <button className={`${classes.nav_btn} ${classes.nav_close_btn}`} onClick={showNavBar} >
