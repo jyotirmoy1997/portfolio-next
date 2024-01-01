@@ -4,6 +4,12 @@ import bchain from "@/public/certificates/bchain.jpg"
 import classes from "./page.module.css"
 import CertificateCard from "@/components/certificate-card/certificate-card.component"
 
+export const metadata = {
+    title: 'Jyotirmoy Das - Certifications',
+    description: `Explore a curated collection of my certifications and notable 
+    achievements in Bigdata, Blockchain, Cryptography & Machine Learning.`,
+  }
+
 const details = [
     {
         id : 1,

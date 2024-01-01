@@ -6,7 +6,7 @@ const CertificateCard = ({details}) => {
     return(
         <div className={classes.certificate_card_wrapper}>
             <div className={classes.certificate_card_img_container}>
-                <Image src={image} alt="" sizes="40vw" />
+                <Image src={image} alt="" sizes="(max-width: 768px) 70vw, (max-width: 1200px) 50vw, 40vw" priority />
             </div>
             <div className={classes.certificate_card_det}>
                 <h2>{heading}</h2>

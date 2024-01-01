@@ -10,7 +10,7 @@ const ProjectCard = ({details}) => {
                 <a className={classes.projects_card_img_container} 
                     href={liveLink} 
                     target="_blank">
-                    <Image src={image} alt="" sizes="45vw" />
+                    <Image src={image} alt="" sizes="(max-width: 768px) 70vw, (max-width: 1200px) 50vw, 30vw" priority />
                 </a>
                 <h3>
                     <span>{heading}</span>

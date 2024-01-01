@@ -13,10 +13,15 @@ import cssLogo from "@/public/css.png"
 import jsLogo from "@/public/js.png"
 import pythonLogo from "@/public/python.png"
 import flaskLogo from "@/public/flask.png"
-
 import classes from "./page.module.css"
 
-
+export const metadata = {
+    title: 'Jyotirmoy Das - Projects',
+    description: `Explore a collection of diverse web development projects 
+    showcasing my skills and expertise in front-end and back-end development. 
+    Discover a range of projects demonstrating proficiency in HTML5, CSS3, 
+    JavaScript, React, Node.js, and more !`,
+  }
 
 
 const details = [
