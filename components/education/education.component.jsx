@@ -1,9 +1,9 @@
 'use client'
 
 import eduLogo from "@/public/graduation.png"
-import mlearning from "@/public/images.jpg"
+import mlearning from "@/public/mlearning.png"
 import blockchain from "@/public/blockchain.png"
-import dsa from "@/public/dsa.jpg"
+import dsa from "@/public/dsa.png"
 import devops from "@/public/logo-devops.png"
 import eduIcon from "@/public/edu-icon.png"
 import interestsIcon from "@/public/interests.png"
