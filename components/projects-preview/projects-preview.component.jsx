@@ -77,9 +77,11 @@ const ProjectsPreview = () => {
                         </div>
 
                     </div>
-                    <button className={classes.more_projects}>
-                        <Link href="/projects">Browse more Projects...</Link>
-                    </button>
+                    <Link href="/projects" className={classes.more_projects_wrapper}>
+                        <button className={classes.more_projects}>
+                            Browse more Projects...
+                        </button>
+                    </Link>
                 </div>
             </div>
         </Fade>

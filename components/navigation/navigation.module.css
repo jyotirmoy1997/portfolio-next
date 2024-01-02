@@ -48,10 +48,6 @@
     transition-duration: .25s;
 }
 
-.hire_me_btn a{
-    all: unset;
-}
-
 .hire_me_btn:hover{
     cursor: pointer;
     background-color: white;

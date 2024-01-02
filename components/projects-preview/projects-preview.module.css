@@ -48,6 +48,13 @@
     height: auto;
 }
 
+.more_projects_wrapper{
+    all: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .more_projects{
     width: 20%;
     height: 50px;
@@ -59,8 +66,8 @@
     background-color: #72E2AE;
 }
 
-.more_projects a{
-    all: unset;
+.more_projects:hover{
+    background-color: white;
 }
 
 
