@@ -36,6 +36,8 @@ const ContactForm = () => {
     const form = useRef();
 
     const updateForm = (event) => {
+        setError("")
+        setEmailError("")
         setFormData({...formData, [event.target.name] : event.target.value})
     }
 
