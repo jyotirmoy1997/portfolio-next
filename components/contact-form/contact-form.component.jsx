@@ -38,8 +38,13 @@ const ContactForm = () => {
     const updateForm = (event) => {
         setError("")
         setEmailError("")
+        nameRef.current.classList.remove(classes.err_class)
+        emailRef.current.classList.remove(classes.err_class)
+        subjectRef.current.classList.remove(classes.err_class)
+        messageRef.current.classList.remove(classes.err_class)
         setFormData({...formData, [event.target.name] : event.target.value})
     }
+    
 
     const onSubmitHandler = (event) => {
         event.preventDefault()
