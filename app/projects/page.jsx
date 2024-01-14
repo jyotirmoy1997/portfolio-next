@@ -26,7 +26,7 @@ export const metadata = {
 const details = [
     {
         id : 1,
-        liveLink : "https://pc-hunters.netlify.app/",
+        liveLink : "https://pc-hunterz.netlify.app/",
         gitHubLink : "https://github.com/jyotirmoy1997/PC-Hunters",
         image : phimg,
         heading : "PC-Hunters :  An E-Commerce Store Prototype",

@@ -28,7 +28,7 @@ const ProjectsPreview = () => {
 
                         <div className={classes.projects_preview_card}>
                             <a className={classes.projects_preview_card_img_container} 
-                            href="https://pc-hunters.netlify.app/" 
+                            href="https://pc-hunterz.netlify.app/" 
                             target="_blank">
                                 <Image src={phimg} alt="" sizes="50vw" />
                             </a>
