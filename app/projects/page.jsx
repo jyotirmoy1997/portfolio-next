@@ -1,5 +1,6 @@
 import ProjectCard from "@/components/project-card/project-card.component"
 import phimg from "@/public/pc-hunters.png"
+import jboard from "@/public/jboard.png"
 import gaimg from "@/public/gamers-adobe.png"
 import mseimg from "@/public/mse.png"
 import converter from "@/public/converter.png"
@@ -12,6 +13,9 @@ import cssLogo from "@/public/css.png"
 import jsLogo from "@/public/js.png"
 import pythonLogo from "@/public/python.png"
 import flaskLogo from "@/public/flask.png"
+import laravelLogo from "@/public/laravel.png"
+import phpLogo from "@/public/php.png"
+import mysqlLogo from "@/public/MySQL.png"
 import classes from "./page.module.css"
 
 export const metadata = {
@@ -36,6 +40,16 @@ const details = [
     },
     {
         id : 2,
+        liveLink : "https://github.com/jyotirmoy1997/job-board-laravel",
+        gitHubLink : "https://github.com/jyotirmoy1997/job-board-laravel",
+        image : jboard,
+        heading : "WorkSpace : A Job-Board Prototype",
+        ts : [
+            laravelLogo, phpLogo, mysqlLogo, htmlLogo, cssLogo
+        ]
+    },
+    {
+        id : 3,
         liveLink : "https://gamerz-adobe.netlify.app/",
         gitHubLink : "https://github.com/jyotirmoy1997/Gamerz-AdobeV2",
         image : gaimg,
@@ -45,7 +59,7 @@ const details = [
         ]
     },
     {
-        id : 3,
+        id : 4,
         liveLink : "https://macronutrient-status-esmitamor.onrender.com/",
         gitHubLink : "https://github.com/jyotirmoy1997/Macro-Nutrient-Classification",
         image : mseimg,
@@ -55,7 +69,7 @@ const details = [
         ]
     },
     {
-        id : 4,
+        id : 5,
         liveLink : "https://currency-converter-global.netlify.app/",
         gitHubLink : "https://github.com/jyotirmoy1997/currency-converter",
         image : converter,

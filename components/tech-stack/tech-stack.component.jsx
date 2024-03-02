@@ -17,6 +17,11 @@ import tsLogo from "@/public/typescript.png"
 import nextLogo from "@/public/nextjs.png"
 import gitogo from "@/public/git.png"
 import postgreslogo from "@/public/postgresql.png"
+import laravelLogo from "@/public/laravel.png"
+import phpLogo from "@/public/php.png"
+import mysqlLogo from "@/public/MySQL.png"
+import drupalLogo from "@/public/drupal.png"
+
 import Image from "next/image"
 
 import { Tooltip } from "react-tooltip"
@@ -107,13 +112,7 @@ const TechStack = () => {
                     <Tooltip id="postgres-tooltip" />
                         <Image src={postgreslogo.src} alt="" height={70} width={70} quality={100} sizes="50vw"/>
                     </div>
-                    <div className={classes.ts_img_container}
-                     data-tooltip-id="git-tooltip" 
-                     data-tooltip-content="Git" 
-                     data-tooltip-float={true} >
-                    <Tooltip id="git-tooltip" />
-                        <Image src={gitogo.src} alt="" height={70} width={70} quality={100} sizes="50vw" />
-                    </div>
+                    
                     <div className={classes.ts_img_container}
                     data-tooltip-id="python-tooltip" 
                     data-tooltip-content="Python" 
@@ -128,6 +127,31 @@ const TechStack = () => {
                     <Tooltip id="flask-tooltip" />
                         <Image src={flaskLogo.src} alt="" height={70} width={70} quality={100} sizes="50vw"/>
                     </div>
+
+                    <div className={classes.ts_img_container}
+                     data-tooltip-id="php-tooltip" 
+                     data-tooltip-content="PHP" 
+                     data-tooltip-float={true} >
+                    <Tooltip id="php-tooltip" />
+                        <Image src={phpLogo.src} alt="" height={70} width={70} quality={100} sizes="50vw"/>
+                    </div>
+
+                    <div className={classes.ts_img_container}
+                     data-tooltip-id="laravel-tooltip" 
+                     data-tooltip-content="Laravel" 
+                     data-tooltip-float={true} >
+                    <Tooltip id="laravel-tooltip" />
+                        <Image src={laravelLogo.src} alt="" height={70} width={70} quality={100} sizes="50vw"/>
+                    </div>
+
+                    <div className={classes.ts_img_container}
+                     data-tooltip-id="mysql-tooltip" 
+                     data-tooltip-content="MySQL" 
+                     data-tooltip-float={true} >
+                    <Tooltip id="mysql-tooltip" />
+                        <Image src={mysqlLogo.src} alt="" height={70} width={70} quality={100} sizes="50vw"/>
+                    </div>
+
                     <div className={classes.ts_img_container}
                      data-tooltip-id="java-tooltip" 
                      data-tooltip-content="Java" 
@@ -141,6 +165,21 @@ const TechStack = () => {
                      data-tooltip-float={true} >
                     <Tooltip id="cpp-tooltip" />
                         <Image src={cppLogo.src} alt="" height={70} width={70} quality={100} sizes="50vw"/>
+                    </div>
+
+                    <div className={classes.ts_img_container}
+                     data-tooltip-id="drupal-tooltip" 
+                     data-tooltip-content="Drupal" 
+                     data-tooltip-float={true} >
+                    <Tooltip id="drupal-tooltip" />
+                        <Image src={drupalLogo.src} alt="" height={70} width={70} quality={100} sizes="50vw"/>
+                    </div>
+                    <div className={classes.ts_img_container}
+                     data-tooltip-id="git-tooltip" 
+                     data-tooltip-content="Git" 
+                     data-tooltip-float={true} >
+                    <Tooltip id="git-tooltip" />
+                        <Image src={gitogo.src} alt="" height={70} width={70} quality={100} sizes="50vw" />
                     </div>
             </div>
         </div>
