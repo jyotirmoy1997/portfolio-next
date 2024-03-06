@@ -2,6 +2,7 @@ import ProjectCard from "@/components/project-card/project-card.component"
 import phimg from "@/public/pc-hunters.png"
 import jboard from "@/public/jboard.png"
 import gaimg from "@/public/gamers-adobe.png"
+import ddportfolio from "@/public/ddportfolio.png"
 import mseimg from "@/public/mse.png"
 import converter from "@/public/converter.png"
 import reactLogo from "@/public/react-icon.png"
@@ -16,6 +17,7 @@ import flaskLogo from "@/public/flask.png"
 import laravelLogo from "@/public/laravel.png"
 import phpLogo from "@/public/php.png"
 import mysqlLogo from "@/public/MySQL.png"
+import nextjsLogo from "@/public/nextjs.png"
 import classes from "./page.module.css"
 
 export const metadata = {
@@ -50,6 +52,16 @@ const details = [
     },
     {
         id : 3,
+        liveLink : "https://www.danddproductions.in/",
+        gitHubLink : "https://github.com/jyotirmoy1997/photo-portfolio-next",
+        image : ddportfolio,
+        heading : "Portfolio Website of D&D Productions",
+        ts : [
+            nextjsLogo, reactLogo, cssLogo, htmlLogo, jsLogo
+        ]
+    },
+    {
+        id : 4,
         liveLink : "https://gamerz-adobe.netlify.app/",
         gitHubLink : "https://github.com/jyotirmoy1997/Gamerz-AdobeV2",
         image : gaimg,
@@ -59,7 +71,7 @@ const details = [
         ]
     },
     {
-        id : 4,
+        id : 5,
         liveLink : "https://macronutrient-status-esmitamor.onrender.com/",
         gitHubLink : "https://github.com/jyotirmoy1997/Macro-Nutrient-Classification",
         image : mseimg,
@@ -69,7 +81,7 @@ const details = [
         ]
     },
     {
-        id : 5,
+        id : 6,
         liveLink : "https://currency-converter-global.netlify.app/",
         gitHubLink : "https://github.com/jyotirmoy1997/currency-converter",
         image : converter,
