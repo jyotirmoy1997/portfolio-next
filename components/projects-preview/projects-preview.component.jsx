@@ -14,6 +14,8 @@ import cssLogo from "@/public/css.png"
 import jsLogo from "@/public/js.png"
 import pythonLogo from "@/public/python.png"
 import flaskLogo from "@/public/flask.png"
+import nextjsLogo from "@/public/nextjs.png"
+import ddportfolio from "@/public/ddportfolio.png"
 import Image from "next/image"
 import { Fade } from "react-awesome-reveal";
 
@@ -44,17 +46,18 @@ const ProjectsPreview = () => {
 
                         <div className={classes.projects_preview_card}>
                             <a className={classes.projects_preview_card_img_container}
-                            href="https://gamerz-adobe.netlify.app/"
+                            href="https://www.danddproductions.in/"
                             target="_blank">
-                                <Image src={gaimg} alt="" sizes="50vw" />
+                                <Image src={ddportfolio} alt="" sizes="50vw" />
                             </a>
-                            <h3>Gamerz-Adobe : A Social Media Prototype</h3>
+                            <h3>Portfolio Website of D&D Productions</h3>
                             <h5>Tech Stack Used</h5>
                             <div className={classes.project_ts_container}>
+                                <Image src={nextjsLogo} alt="" height={50} width={50} />
                                 <Image src={reactLogo} alt="" height={50} width={50} />
-                                <Image src={expressLogo} alt="" height={50} width={50} />
-                                <Image src={nodeLogo} alt="" height={50} width={50} />
-                                <Image src={mongodbLogo} alt="" height={50} width={50} />
+                                <Image src={htmlLogo} alt="" height={50} width={50} />
+                                <Image src={cssLogo} alt="" height={50} width={50} />
+                                <Image src={jsLogo} alt="" height={50} width={50} />
                             </div>
                         </div>
 
