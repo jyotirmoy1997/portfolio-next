@@ -41,16 +41,6 @@ const details = [
         ]
     },
     {
-        id : 2,
-        liveLink : "https://github.com/jyotirmoy1997/job-board-laravel",
-        gitHubLink : "https://github.com/jyotirmoy1997/job-board-laravel",
-        image : jboard,
-        heading : "WorkSpace : A Job-Board Prototype",
-        ts : [
-            laravelLogo, phpLogo, mysqlLogo, htmlLogo, cssLogo
-        ]
-    },
-    {
         id : 3,
         liveLink : "https://www.danddproductions.in/",
         gitHubLink : "https://github.com/jyotirmoy1997/photo-portfolio-next",
@@ -68,6 +58,16 @@ const details = [
         heading : "Gamerz-Adobe : A Social Media Prototype",
         ts : [
             reactLogo, expressLogo, nodeLogo, mongodbLogo
+        ]
+    },
+    {
+        id : 2,
+        liveLink : "https://github.com/jyotirmoy1997/job-board-laravel",
+        gitHubLink : "https://github.com/jyotirmoy1997/job-board-laravel",
+        image : jboard,
+        heading : "WorkSpace : A Job-Board Prototype",
+        ts : [
+            laravelLogo, phpLogo, mysqlLogo, htmlLogo, cssLogo
         ]
     },
     {
