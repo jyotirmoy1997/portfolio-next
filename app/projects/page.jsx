@@ -60,16 +60,16 @@ const details = [
             reactLogo, expressLogo, nodeLogo, mongodbLogo
         ]
     },
-    {
-        id : 2,
-        liveLink : "https://github.com/jyotirmoy1997/job-board-laravel",
-        gitHubLink : "https://github.com/jyotirmoy1997/job-board-laravel",
-        image : jboard,
-        heading : "WorkSpace : A Job-Board Prototype",
-        ts : [
-            laravelLogo, phpLogo, mysqlLogo, htmlLogo, cssLogo
-        ]
-    },
+    // {
+    //     id : 2,
+    //     liveLink : "https://github.com/jyotirmoy1997/job-board-laravel",
+    //     gitHubLink : "https://github.com/jyotirmoy1997/job-board-laravel",
+    //     image : jboard,
+    //     heading : "WorkSpace : A Job-Board Prototype",
+    //     ts : [
+    //         laravelLogo, phpLogo, mysqlLogo, htmlLogo, cssLogo
+    //     ]
+    // },
     {
         id : 5,
         liveLink : "https://macronutrient-status-esmitamor.onrender.com/",

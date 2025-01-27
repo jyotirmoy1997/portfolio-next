@@ -128,7 +128,7 @@ const TechStack = () => {
                         <Image src={flaskLogo.src} alt="" height={70} width={70} quality={100} sizes="50vw"/>
                     </div>
 
-                    <div className={classes.ts_img_container}
+                    {/* <div className={classes.ts_img_container}
                      data-tooltip-id="php-tooltip" 
                      data-tooltip-content="PHP" 
                      data-tooltip-float={true} >
@@ -142,15 +142,15 @@ const TechStack = () => {
                      data-tooltip-float={true} >
                     <Tooltip id="laravel-tooltip" />
                         <Image src={laravelLogo.src} alt="" height={70} width={70} quality={100} sizes="50vw"/>
-                    </div>
+                    </div> */}
 
-                    <div className={classes.ts_img_container}
+                    {/* <div className={classes.ts_img_container}
                      data-tooltip-id="mysql-tooltip" 
                      data-tooltip-content="MySQL" 
                      data-tooltip-float={true} >
                     <Tooltip id="mysql-tooltip" />
                         <Image src={mysqlLogo.src} alt="" height={70} width={70} quality={100} sizes="50vw"/>
-                    </div>
+                    </div> */}
 
                     <div className={classes.ts_img_container}
                      data-tooltip-id="java-tooltip" 
@@ -167,13 +167,13 @@ const TechStack = () => {
                         <Image src={cppLogo.src} alt="" height={70} width={70} quality={100} sizes="50vw"/>
                     </div>
 
-                    <div className={classes.ts_img_container}
+                    {/* <div className={classes.ts_img_container}
                      data-tooltip-id="drupal-tooltip" 
                      data-tooltip-content="Drupal" 
                      data-tooltip-float={true} >
                     <Tooltip id="drupal-tooltip" />
                         <Image src={drupalLogo.src} alt="" height={70} width={70} quality={100} sizes="50vw"/>
-                    </div>
+                    </div> */}
                     <div className={classes.ts_img_container}
                      data-tooltip-id="git-tooltip" 
                      data-tooltip-content="Git" 
